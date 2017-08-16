@@ -1,0 +1,27 @@
+{
+  "name": "svelte-static-site-example",
+  "version": "0.0.1",
+  "description": "Minimal example of how to produce a static website with Webpack and Svelte.",
+  "main": "main.js",
+  "dependencies": {
+    "babel-runtime": "^6.25.0",
+    "svelte": "^1.1.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "find-cache-dir": "^1.0.0",
+    "static-render-webpack-plugin": "^0.1.2",
+    "style-loader": "^0.18.2",
+    "svelte-loader": "^2.1.0",
+    "webpack": "^3.5.3",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "keywords": [],
+  "author": "lasersox",
+  "license": "MIT"
+}

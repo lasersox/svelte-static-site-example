@@ -1,0 +1,14 @@
+<p>Below this you should see "hello" in red:</p>
+<p id="hello"></p>
+
+<style type="text/css">
+#hello { color: #F00; }
+</style>
+
+<script>
+export default {
+  oncreate () {
+    document.getElementById("hello").innerText = "Hello"
+  },
+}
+</script>
